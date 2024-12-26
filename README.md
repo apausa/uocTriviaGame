@@ -16,4 +16,6 @@ At the end, our application should solve the following main features:
 session token usage.
 - Allow players to save their final score in the ranking with the provided player name.
 
+### Screenshot
+
 ![Screenshot](screenshot.png)
