@@ -1,0 +1,241 @@
+/* Resets */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 19px;
+    line-height: 1.4;
+    color: hsl(0, 0%, 16%);
+
+    background-color: hsl(0, 0%, 100%);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul, ol, dl {
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+}
+
+
+/* Utilities */
+
+.d-none {
+    display: none !important;
+}
+
+
+/* Buttons */
+
+.btn {
+    padding: 8px 16px;
+
+    font-size: 18px;
+    line-height: 1;
+    color: hsl(212, 96%, 24%);
+
+    border: 1px solid hsl(212, 96%, 72%);
+    border-radius: 3px;
+    background-color: hsl(212, 96%, 72%);
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: hsl(212, 96%, 12%);
+
+    border: 1px solid hsl(212, 96%, 56%);
+    background-color: hsl(212, 96%, 56%);
+}
+
+.btn--ghost {
+    text-decoration: underline;
+
+    border: 0;
+    background-color: transparent;
+}
+
+.btn--ghost:hover {
+    color: hsl(212, 96%, 12%);
+
+    border: 0;
+    background-color: transparent;
+}
+
+
+/* Main layout */
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+}
+
+.game {
+    width: 100%;
+    padding: 32px;
+}
+
+.ranking {
+    width: 100%;
+    padding: 32px;
+
+    color: hsl(0, 0%, 96%);
+    background-color: hsl(0, 0%, 16%);
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        flex-direction: row;
+    }
+
+    .ranking {
+        width: 40%;
+        max-width: 320px;
+    }
+}
+
+
+/* Game styles */
+
+.options {
+    display: flex;
+    gap: 16px;
+}
+
+.points {
+    margin-top: 32px;
+
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.question {
+    margin: 32px 0 0;
+    max-width: 640px;
+}
+
+.question__statement {
+    font-weight: 300;
+}
+
+.question__answers {
+    margin-top: 32px;
+}
+
+.question__option {
+    padding: 12px 16px;
+    margin-top: 12px;
+
+    border: 1px solid hsl(0, 0%, 88%);
+    background-color: hsl(0, 0%, 96%);
+}
+
+.question__option:hover {
+    padding: 12px 16px;
+    margin-top: 12px;
+
+    border: 1px solid hsl(0, 0%, 88%);
+    background-color: hsl(0, 0%, 92%);
+}
+
+
+
+/* Player score */
+
+.score {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    max-width: 640px;
+    padding: 40px;
+    margin-top: 32px;
+
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.score__points {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+input {
+    padding: 8px 16px;
+
+    font-size: 16px;
+    line-height: 1;
+}
+
+@media (min-width: 768px) {
+
+    .score {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+
+/* Ranking */
+
+.ranking__title {
+    letter-spacing: 1px;
+}
+
+.ranking__message {
+    margin-top: 16px;
+}
+
+.scoreboard {
+    margin-top: 16px;
+}
+
+.scoreboard__item {
+    display: flex;
+    align-items: center;
+
+    padding: 12px 0;
+    margin-top: 8px;
+
+    border-bottom: 1px solid hsl(0, 0%, 8%);
+}
+
+.scoreboard__pos {
+    min-width: 40px;
+    padding: 4px 8px;
+
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: hsl(0, 0%, 56%);
+
+    border-radius: 4px;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.scoreboard__name {
+    margin-left: 12px;
+
+    color: hsl(0, 0%, 80%);
+}
+
+.scoreboard__points {
+    margin-left: auto;
+
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}

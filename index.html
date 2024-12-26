@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>20232 Web Programming - PRACTICE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+
+    <div class="container js-app">
+
+        <div class="game js-game">
+            <nav>
+                <ul class="options js-options">
+                    <li><button class="btn js-new">New Game</button></li>
+                    <li><button class="btn js-cancel">Cancel</button></li>
+                </ul>
+            </nav>
+
+            <p class="points">Current score: <span class="js-points">X</span> points.</p>
+
+            <div class="question js-question">
+            </div>
+
+            <div class="score js-score">
+                <input class="score__username js-username" type="text" name="username" id="username" placeholder="Your user name here...">
+                <button class="btn js-save">Save</button>
+                <button class="btn btn--ghost js-discard">Discard</button>
+            </div>
+        </div>
+
+        <div class="ranking js-ranking">
+            <h3 class="ranking__title">🏆 Ranking</h3>
+
+            <p class="ranking__message js-empty">This ranking is empty... <strong>Play the game and become the first!</strong></p>
+
+            <ul class="scoreboard js-list">
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
