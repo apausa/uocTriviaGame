@@ -1,6 +1,6 @@
 # Trivia Game
 
-Selected exercise from the 'Web Programming' course within the Bachelor's degree in Software Development. This project consisted in developing a Single-page Application in Vanilla JavaScript, that fetches data from a public API. 
+Selected exercise from the 'Web Programming' course within the Bachelor's degree in Software Development. This project consisted in developing a single-page application in Vanilla JavaScript, that fetches data from a public API. 
 
 ## Brief description
 
