@@ -1,6 +1,6 @@
 # Trivia Game
 
-Selected exercise from the 'Web Programming' course within the Bachelor's degree in Software Development at Universitat Oberta de Catalunya (UOC).
+Selected exercise from the 'Web Programming' course within the Bachelor's degree in Software Development. This project consisted in developing a Single-page Application in Vanilla JavaScript, that fetches data from a public API. 
 
 ## Description
 
