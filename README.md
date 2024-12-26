@@ -1,8 +1,8 @@
-# uocWebProgramming
+# Trivia Game
 
 Selected exercise from the 'Web Programming' course within the Bachelor's degree in Software Development at Universitat Oberta de Catalunya (UOC).
 
-## Trivia Game
+## Description
 
 This practice implements a Single Page Application (without routing) that consumes a public API using fetch.
 
